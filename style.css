@@ -1,5 +1,11 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@600&display=swap');
+/*
+fonte para so titulo
+*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,700&display=swap');
+/* 
+Fonte da tag p do footer
+*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
 body {
   font-family: 'Noto Sans Mono', monospace;
     margin: 0;
@@ -49,17 +55,27 @@ body {
     left: 100%;
     position: static;
   }
-  h2{
+  h1, h2{
     padding: 0px 10px;
-    font-family: 'Noto Sans Mono', monospace;
+    font-family: 'Mulish', sans-serif;
   }
  p{
   text-decoration: none;
- }
+  font-family: 'Roboto Mono', monospace;
+  }
  p.a{
   padding: 0px 10px ;
-  font-family: 'Noto Sans Mono', monospace;
   text-decoration: none;
+  font-family: 'Roboto Mono', monospace;
+ }
+ .p2{
+  color: red;
+  font-family: 'Roboto Mono', monospace;
+  font-size:  x-large;
+ }
+ .p1{
+  font-size: x-large;
+  font-family: "Roboto Mono", monospace;
  }
  a{
   text-decoration: none;
