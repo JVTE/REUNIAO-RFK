@@ -1,57 +1,62 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- LINK DO CSS DA PÁGINA -->
     <link rel="stylesheet" href="style.css">
+    <!-- FAVICON DA PÁGINA -->
     <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
+    <!-- TITULO DA PÁGINA -->
     <title>Reuniões RFK</title>
 </head>
 <body>
     <header>
+        <!-- TITULO DO HEADER DA PÁGINA -->
         <h1>Agendamento de reuniões REFRIKO</h1>    
         <nav>
+          <!-- LISTA DA TAG NAV -->
           <ul>
             <li>
                 <strong>
+                    <!-- LINK PARA O BASEROW -->
                     <a href="https://baserow.io/public/grid/jXephRw9HVSrvKPTzNarfEx063DLinVeZqYV93zQsGU" target="_blank" title="Ver Calendário">Calendário de Eventos</a>
                 </strong>
             </li>
-            <!--
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Contato</a></li>
-            -->
+            <li>
+              <strong>
+                <!-- LINK DO RDA -->
+                <a href="https://rda.rfk.ind.br/index.php?redirect=%2Fajax%2Fdashboard.php%3Faction%3Dget_card%26dashboard%3Dcentral%26card_id%3Dticket_status%26force%3D0%26embed%3D0%26args%255Bcolor%255D%3D%2523f3f6f4%26args%255Bwidgettype%255D%3Dstackedbars%26args%255Buse_gradient%255D%3D0%26args%255Bpoint_labels%255D%3D0%26args%255Blimit%255D%3D7%26args%255Bcache_key%255D%3Ddashboard_card_central_e575c505b09d7746b67243733641210a73a4fdcc%26args%255Bcard_id%255D%3Dticket_status%26args%255Bgridstack_id%255D%3Dticket_status_8464194e-9c9b-4630-90ee-fb60b65a2182%26d_cache_key%3Dda39a3ee5e6b4b0d3255bfef95601890afd80709%26c_cache_key%3Ddashboard_card_central_e575c505b09d7746b67243733641210a73a4fdcc&error=3" target="_blank">Abertura de chamado</a>
+              </strong>
+            </li>
+            <li>
+              <strong>
+                <!-- LINK DA DOCUMENTAÇÃO RDA -->
+                <a href="https://documentacao.rfk.ind.br/login" target="_blank">Documentação RDA</a>
+              </strong>
+            </li>
           </ul>
         </nav>
       </header>
       <a href="https://github.com/JVTE" target="_blank"><img src="img/rfk.png" alt="IMG RFK" class="rfk"></a>
         <section>
             <h2>Escolha uma das três salas para fazer o agendamento</h2>
+              <br>
                 <p class="a">
-                    <a href="https://cal.com/reuniaorfk/cmb-reuniao-sala-refriko" target="_blank" title="Agendamento Sala de Reunião Refriko"> Sala REFRIKO </a>
+                    <!-- LINKS DO CALL PARA AGENDAR AS REUNIÕES -->
+                    <!-- LINK DE AGENDAMENTO PADRÃO --><a href="https://cal.com/sala-refriko/sala-refriko" target="_blank"> Sala REFRIKO </a> - <!-- LINK DE AGENDAMENTO COM RECORRENCIA --> <a href="https://cal.com/sala-refriko-reuniao-recorrente/reuniao-recorrente-sala-refriko" target="_blank"> Sala REFRIKO reunião recorrente </a> - <!-- LINK DE AGENDAMENTO PARA O DIA TODO --> <a href="https://cal.com/sala-de-reuniao-refriko-dia-todo/sala-refriko-dia-todo" target="_blank"> Reunião dia todo Sala REFRIKO </a>
                     <br>
                     <br>
-                    <a href="https://cal.com/reuniaorfk/sala-furioso" target="_blank" title="Agendamento Sala de Reunião Furioso"> Sala Furioso </a>
+                    <!-- LINK DE AGENDAMENTO PADRÃO --> <a href="https://cal.com/sala-furioso/sala-furiso" target="_blank"> Sala Furioso </a> - <!-- LINK DE AGENDAMENTO COM RECORRENCIA --> <a href="https://cal.com/salafurioso-comrecorrencia/sala-furioso-com-recorrencia" target="_blank">  Sala Furioso reunião recorrente</a> - <!-- LINK DE AGENDAMENTO PARA O DIA TODO --> <a href="https://cal.com/sala-furioso-reuniao-dia-todo/sala-furioso" target="_blank"> Reunião para o dia todo Sala Furioso </a>
                     <br>
                     <br>
-                    <a href="https://cal.com/reuniaorfk/sala-delirio" target="_blank" title="Agendamento Sala de Reunião Delirio"> Sala Delírio </a>
-                    <br>
-                    <br>
-                    <a href="https://cal.com/reuniaorfk/cmb-sala-refriko-dia-todo" target="_blank"> Reunião para o dia todo Sala REFRIKO </a>
-                    <br>
-                    <br>
-                    <a href="https://cal.com/reuniaorfk/cmb-sala-furioso-dia-todo" target="_blank"> Reunião para o dia todo Sala FURIOSO </a>
-                    <br>
-                    <br>
-                    <a href="https://cal.com/reuniaorfk/cmb-sala-delirio-dia-todo" target="_blank"> Reunião para o dia todo Sala Delírio </a>
+                    <!-- LINK DE AGENDAMENTO PADRÃO --> <a href="https://cal.com/reuniaorfk/sala-delirio" target="_blank"> Sala Delírio </a> - <!-- LINK DE AGENDAMENTO COM RECORRENCIA --> <a href="https://cal.com/sala-delirio-com-recorencia/sala-delirio-com-recorrencia" target="_blank"> Sala Delírio reunião recorrente </a> - <!-- LINK DE AGENDAMENTO PARA O DIA TODO --> <a href="https://cal.com/sala-delirio-reunioao-dia-todo/sala-delirio-reuniao-dia-todo" target="_blank"> Reunião para o dia todo Sala Delírio </a>
                 </p>                    
         </section>
-      <div id="my-cal-inline" class="agendamento"></div>
       <footer>
+        <!-- iNDICAÇÃO AO USUÁRIO -->
         <p class="p1"> Para fazer um agendamento selecione um dos links a cima </p>
-        <p class="p2"><em> Lembrando que estes ultimos 3 links são para reuniões o dia todo! </em></p>
       </footer>
 </body>
 </html>
