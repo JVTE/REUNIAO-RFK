@@ -2,6 +2,11 @@
   FONTE UTILIZADA NO SITE
 */
 @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap');
+@media screen and (max-width:600px){
+  header{
+    width: 100%;
+  }
+}
 
   body {
     margin: 0;
