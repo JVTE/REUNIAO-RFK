@@ -53,7 +53,9 @@
     height: 100%;
     position: fixed;
     font-family: 'Geologica', sans-serif;
-    
+    background-image: url(img/rfk.png);
+    background-repeat: no-repeat;
+    background-position: left;
   }
 
   h1, h2{
