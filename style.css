@@ -1,13 +1,9 @@
 /*
-fonte para so titulo
+  FONTE UTILIZADA NO SITE
 */
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@1,700&display=swap');
-/* 
-Fonte da tag p do footer
-*/
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap');
+
 body {
-  font-family: 'Noto Sans Mono', monospace;
     margin: 0;
     padding: 0;
   }
@@ -16,8 +12,9 @@ body {
     background-color: #333;
     color: #fff;
     padding: 10px;
-    font-family: 'Noto Sans Mono', monospace;
+    font-family: pass;
     background-repeat: no-repeat;
+    font-family: 'Geologica', sans-serif;
   }
   
   nav ul {
@@ -31,16 +28,17 @@ body {
     margin-right: 10px;
     padding: 0px 20px;
     font-size: medium;
-    font-family: 'Roboto Mono', monospace;
   }
   
   nav ul li a {
     color: #fff;
     text-decoration: none;
+    font-family: 'Geologica', sans-serif;
   }
   
   section {
     padding: 20px;
+    font-family: 'Geologica', sans-serif;
   }
   footer {
     background-color: #fff;
@@ -49,33 +47,36 @@ body {
     width: 100%;
     height: 100%;
     position: fixed;
-    font-family: 'Roboto mono', monospace;
+    font-family: 'Geologica', sans-serif;
   }
   .rfk{
     width: 200px;
     border-radius: 50%;
     float: right;
-    position: relative;
-    padding: 100px 0px;
+    padding: 0px 1700px;
   }
   h1, h2{
     padding: 0px 20px;
-    font-family: 'Mulish', sans-serif;
   }
  p{
   text-decoration: none;
-  font-family: 'Roboto Mono', monospace;
+
   }
  p.a{
   padding: 0px 10px ;
   text-decoration: none;
   font-size: large;
-  font-family: 'Roboto Mono', monospace;
  }
  .p1{
   font-size: x-large;
-  font-family: "Roboto Mono", monospace;
+
   padding: 0px 20px;
+ }
+ .cor1{
+  color: #fa0000;
+ }
+ .colorlink{
+  color: #000000;
  }
  a{
   text-decoration: none;
