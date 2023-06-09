@@ -53,13 +53,11 @@
     height: 100%;
     position: fixed;
     font-family: 'Geologica', sans-serif;
+    background-image: url(https://media.licdn.com/dms/image/C4D0BAQHL--bcaHherQ/company-logo_200_200/0/1652115806622?e=2147483647&v=beta&t=GzKEs5mwffECeJuFosRiMeOXZwOzBr03ldxxjw6kpeI);
+    background-repeat: no-repeat;
+    background-position: left;
   }
-  .rfk{
-    width: 200px;
-    border-radius: 50%;
-    float: right;
-    padding: 0px 1700px;
-  }
+
   h1, h2{
     padding: 0px 20px;
   }
