@@ -43,44 +43,43 @@
   
   section {
     padding: 20px;
-    font-family: 'Geologica', sans-serif;
+    font-family: 'Geologica', sans-serif; 
   }
+
   footer {
-    background-color: #fff;
     color: #333;
     padding: 10px 10px;
     width: 100%;
     height: 100%;
     position: fixed;
-    font-family: 'Geologica', sans-serif;
+    font-family: 'Geologica', sans-serif; 
     background-image: url(img/rfk.png);
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: left;  
   }
-
-  h1, h2{
+  h2{
     padding: 0px 20px;
   }
- p{
-  text-decoration: none;
-
-  }
+  
  p.a{
   padding: 0px 10px ;
   text-decoration: none;
   font-size: large;
  }
+
  .p1{
   font-size: x-large;
-
   padding: 0px 20px;
  }
+
  .cor1{
   color: #fa0000;
  }
+
  .colorlink{
   color: #000000;
  }
+
  a{
   text-decoration: none;
  }
