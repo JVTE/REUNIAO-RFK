@@ -1,18 +1,16 @@
-/*
-  FONTE UTILIZADA NO SITE
-*/
-@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap');
-@media screen and (max-width:600px){
+  /*  FONTE UTILIZADA NO SITE */
+  @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap');
+  @media screen and (max-width:600px){
   header{
     width: 100%;
+    }
   }
-}
 
   body {
     margin: 0;
     padding: 0;
   }
-  
+  /* ESTILO DO HEADER */
   header {
     background-color: #333;
     color: #fff;
@@ -21,34 +19,31 @@
     background-repeat: no-repeat;
     font-family: 'Geologica', sans-serif;
   }
-  
+  /* ESTILO DA NAV UL */
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
-  
+  /* ESTILO DA NAV UL LI */
   nav ul li {
     display: inline;
     margin-right: 10px;
     padding: 0px 20px;
     font-size: medium;
   }
-  
+  /* ESTILO DA NAV UL LI A */
   nav ul li a {
     color: #fff;
     text-decoration: none;
     font-family: 'Geologica', sans-serif;
   }
-  
+  /* ESTILO DA SECTION */
   section {
     padding: 20px;
-    font-family: 'Geologica', sans-serif; 
-    background-image: url(img/rfk.png);
-    background-repeat: no-repeat;
-    background-position: right center;  
+    font-family: 'Geologica', sans-serif;  
   }
-
+  /* ESTILO DO FOOTER */
   footer {
     color: #333;
     padding: 10px 10px;
@@ -57,34 +52,38 @@
     position: fixed;
     font-family: 'Geologica', sans-serif; 
   }
-  h2{
+  /* ESTILO DO H1 */
+  h1{
     padding: 0px 20px;
   }
+  /* ESTILO DO LINK DA TAG P */
+  p.a{
+    padding: 0px 10px ;
+    text-decoration: none;
+    font-size: large;
+  }
   
- p.a{
-  padding: 0px 10px ;
-  text-decoration: none;
-  font-size: large;
- }
-
- .p1{
-  font-size: x-large;
-  padding: 0px 20px;
-  color: #ff0000;
- }
- /* COR DO SPAN DA TOPNAV */
- #nav{
-  color: #fff;
- }
- /* COR DO SPAN DO FOOTER */
- #foot{
-  color: #000000;
- }
-
- .colorlink{
-  color: #000000;
- }
-
- a{
-  text-decoration: none;
- }
+  /* ESTILO DA TAG P DO FOOTER */
+  .p1{
+    font-size: x-large;
+    padding: 0px 20px;
+    color: #ff0000;
+  }
+  
+  /* COR DO SPAN DA TOPNAV */
+  #nav{
+    color: #fff;
+  }
+  
+  /* COR DO SPAN DO FOOTER */
+  #foot{
+    color: #000000;
+  }
+  /* COR DOS LINKS QUE O USUÁRIO ACESSA PARA FAZER OS AGENDAMENTOS */
+  .colorlink{
+    color: #000000;
+  }
+  /* TIRA A DECORAÇÃO DOS LINKS */
+  a{
+    text-decoration: none;
+  }
