@@ -70,10 +70,15 @@
  .p1{
   font-size: x-large;
   padding: 0px 20px;
+  color: #ff0000;
  }
-
- .cor1{
-  color: #fa0000;
+ /* COR DO SPAN DA TOPNAV */
+ #nav{
+  color: #fff;
+ }
+ /* COR DO SPAN DO FOOTER */
+ #foot{
+  color: #000000;
  }
 
  .colorlink{
