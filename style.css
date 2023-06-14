@@ -42,6 +42,9 @@
   section {
     padding: 20px;
     font-family: 'Geologica', sans-serif;  
+    background-image: url(img/rfk.png);
+    background-repeat: no-repeat;
+    background-position: right center;
   }
   /* ESTILO DO FOOTER */
   footer {
