@@ -1,5 +1,6 @@
   /*  FONTE UTILIZADA NO SITE */
   @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap');
+  /* ESSE CAMPO DEIXA A PÁGINA RESPONSIVA, OU SEJA O USUÁRIO CONSEGUE ABRIR EM OUTRO DISPOSITVOS COMO SMARTPHONES */
   @media screen and (max-width:600px){
   header{
     width: 100%;
@@ -16,7 +17,6 @@
     background-color: #333;
     color: #fff;
     padding: 10px;
-    font-family: pass;
     background-repeat: no-repeat;
     font-family: 'Geologica', sans-serif;
   }
@@ -95,10 +95,12 @@
   #foot{
     color: #000000;
   }
+
   /* COR DOS LINKS QUE O USUÁRIO ACESSA PARA FAZER OS AGENDAMENTOS */
   .colorlink{
     color: #000000;
   }
+
   /* TIRA A DECORAÇÃO DOS LINKS */
   a{
     text-decoration: none;
