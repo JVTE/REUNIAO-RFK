@@ -1,5 +1,6 @@
   /*  FONTE UTILIZADA NO SITE */
-  @import url('https://fonts.googleapis.com/css2?family=Geologica:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
+  
   /* ESSE CAMPO DEIXA A PÁGINA RESPONSIVA, OU SEJA O USUÁRIO CONSEGUE ABRIR EM OUTRO DISPOSITVOS COMO SMARTPHONES */
   @media screen and (max-width:600px){
   header{
@@ -7,9 +8,11 @@
     }
   }
 
-  body {
+  * {
+    font-family: 'Geologica', sans-serif;
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
   }
 
   /* ESTILO DO HEADER */
@@ -18,39 +21,37 @@
     color: #fff;
     padding: 10px;
     background-repeat: no-repeat;
-    font-family: 'Geologica', sans-serif;
   }
-
-  /* ESTILO DA NAV UL */
+  
+  /* ESTILO DOS LINK DENTRO DO HEADER */
+  #nav{
+    padding: 0px 20px;
+  }
+  
+  /* ESTILO DA NAV UL 
   nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
   }
+  */
 
   /* ESTILO DA NAV UL LI */
   nav ul li {
     display: inline;
-    margin-right: 10px;
-    padding: 0px 45px;
-    font-size: medium;
+  /* padding: 0px 10% */
   }
   
   /* ESTILO DA NAV UL LI A */
   nav ul li a {
     color: #fff;
     text-decoration: none;
-    font-family: 'Geologica', sans-serif;
+    padding: 0px 20px;
   }
 
   /* ESTILO DA SECTION */
   section {
     padding: 20px;
-    font-family: 'Geologica', sans-serif;  
-    background-image: url(img/rfk.png);
-    background-repeat: no-repeat;
-    background-position: right center;
-
   }
   
   /* ESTILO DO FOOTER */
@@ -60,37 +61,31 @@
     width: 100%;
     height: 100%;
     position: fixed;
-    font-family: 'Geologica', sans-serif; 
   }
 
-  /* ESTILO DO H1 */
+  /* ESTILO DO H1 E H2*/
   h1{
-    padding: 0px 20px;
+    padding: 20px 20px;
   }
 
   h2{
-    padding: 0px 10px;
+    padding: 10px 10px;
   }
 
-  /* ESTILO DO LINK DA TAG P */
+  /* ESTILO DO LINK DA TAG P QUE ESTÁ DENTRO DA SECTION */
   p.a{
-    padding: 0px 10px ;
+    padding: 20px 10px ;
     text-decoration: none;
-    font-size: large;
+    font-size: 130%;
   }
   
   /* ESTILO DA TAG P DO FOOTER */
   .p1{
-    font-size: x-large;
-    padding: 0px 20px;
+    font-size: 65%;
+    padding: 10px 10px;
     color: #ff0000;
   }
-  
-  /* COR DO SPAN DA TOPNAV */
-  #nav{
-    color: #fff;
-  }
-  
+   
   /* COR DO SPAN DO FOOTER */
   #foot{
     color: #000000;
