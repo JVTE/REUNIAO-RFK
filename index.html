@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- LINK DO CSS DA PÁGINA -->
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
   <!-- ICONE DO RDA -->
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <!-- ICONE DE CALENDÁRIO -->
@@ -14,10 +14,9 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
   <!-- FAVICON DA PÁGINA -->
     <link rel="shortcut icon" href="img/favicon-16x16.png" type="image/x-icon">
-  <!-- TITULO DA PÁGINA -->
+    <!-- TITULO DA PÁGINA -->
     <title>Reuniões RFK</title>
 </head>
-<body>
   <header>
   <!-- TITULO DO HEADER DA PÁGINA -->
     <h1>Agendamento de reuniões REFRIKO</h1>    
@@ -62,6 +61,22 @@
         <a href="https://cal.com/sala-delirio" target="_blank"> <span class="colorlink"> SALA DELÍRIO </span></a> 
   </section>
   <!-- CASO FOR ADICIONAR MAIS ALGUMA TAG ADICIONAR A PARTIR DAQUI -->
+  
+  <div class="relogio">
+    <div>
+      <span id="horas">00</span>
+      <span class="tempo">Horas</span>
+    </div>
+    <div>
+      <span id="minutos">00</span>
+      <span class="tempo">Minutos</span>
+    </div>
+    <div>
+      <span id="segundos">00</span>
+      <span class="tempo">Segundos</span>
+    </div>
+  </div>
+  <div id="dataAtual" class="data_atual"></div>
   <footer>
   <!-- iNDICAÇÃO AO USUÁRIO -->
     <p class="p1"> Para fazer um agendamento selecione um dos links a cima. </p>
@@ -69,5 +84,6 @@
     <p class="p1"> Para verificar a documentação clique no icone de <span class="material-symbols-outlined" id="foot"> info </span>
     <p class="p1"> Para a abertura de chamados clique no icone <span class="material-symbols-outlined" id="foot"> star_rate </span></p>
   </footer>  
+  <script src="assets/js/app.js"></script>
 </body>
 </html>
