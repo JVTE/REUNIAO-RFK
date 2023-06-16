@@ -102,17 +102,17 @@
     text-decoration: none;
   }
 
-  /* Estilo do Relógio */
+  /* Estilo do Relógio 
 
   .relogio{
     display: flex;
     padding: 0px 25px;
-    /* justify-content: space-around; */
+    /* justify-content: space-around; 
     height: 100px;
     width: 450px;
     background: transparent;
     border-radius: 3px; 
-    /*box-shadow: 0px 8px 10px #000000; */
+    /*box-shadow: 0px 8px 10px #000000; 
   }
 
   .relogio div{
@@ -124,7 +124,7 @@
     justify-content: left;
     color: #333;
     /*background: #e7e4e4e6;
-     box-shadow: 5px 5px 15px rgba(0, 0, 0, .7); */
+     box-shadow: 5px 5px 15px rgba(0, 0, 0, .7); 
     border-radius: 7px;
     letter-spacing: 1px;
   }
@@ -141,4 +141,4 @@
   /* ESTILO DA DATA 
   .data_atual{
     padding: 0px 2px;
-  }*/
+  }*
