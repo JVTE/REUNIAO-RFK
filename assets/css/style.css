@@ -6,9 +6,11 @@
   header{
     width: 100%;
     }
+    /* Tira a imagem da tela em dispositivos menores, tornando ainda mais responsivo a página */
     #img{
       display: none;
     }
+    /* Tira a hora da tela em dispositivos menores, tornando ainda mais responsivo a página */
     #hora_data{
       display: none;
     }
@@ -109,7 +111,6 @@
   }
 
   /* Estilo do Relógio */
-
   .relogio{
     display: flex;
     padding: 0px 25px;
@@ -138,7 +139,7 @@
     font-weight: bolder;
     font-size: 20px;
   }
-
+/* --------------------------------------------------------------------------------------------------------------------------- */
   /* ESTILO DA DATA */ 
   .data_atual{
     align-items: left;
