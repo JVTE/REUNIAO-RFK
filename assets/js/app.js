@@ -1,6 +1,6 @@
 // Cria um alerta quando a página é gerada
 function alerta() {
-    alert('Cancelamentos de reunião SOMENTE com a Ana DA RECEPÇÃO, caso tenha alguma duvida FAVOR verificar o RODAPÉ da página')
+    alert('Cancelamentos de reunião com a Ana DA RECEPÇÃO ou em seu e-mail, caso tenha alguma duvida FAVOR verificar o RODAPÉ da página')
 }
 
 // const horas = document.getElementById('horas');
