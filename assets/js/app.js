@@ -1,32 +1,37 @@
-const horas = document.getElementById('horas');
-const minutos = document.getElementById('minutos');
-const segundos = document.getElementById('segundos');
+function alerta() {
+    alert('Cancelamentos de reunião SOMENTE com a Ana DA RECEPÇÃO, caso tenha alguma duvida FAVOR verificar o RODAPÉ da página')
+}
 
-const relogio = setInterval(function time(){
-    let dateToday = new Date();
-    let hr = dateToday.getHours();
-    let min = dateToday.getMinutes();
-    let s = dateToday.getSeconds();
+// const horas = document.getElementById('horas');
+// const minutos = document.getElementById('minutos');
+// const segundos = document.getElementById('segundos');
 
-    if (hr < 10) hr = '0' + hr;
+// const relogio = setInterval(function time(){
+//     let dateToday = new Date();
+//     let hr = dateToday.getHours();
+//     let min = dateToday.getMinutes();
+//     let s = dateToday.getSeconds();
 
-    if (min < 10) min = '0' + min;
+//     if (hr < 10) hr = '0' + hr;
 
-    if (s < 10) s = '0' + s;
+//     if (min < 10) min = '0' + min;
 
-    horas.textContent = hr;
-    minutos.textContent = min;
-    segundos.textContent = s;
-})
+//     if (s < 10) s = '0' + s;
 
-//Cria um objeto Date com a data e hora atuais
-var dataAtual = new Date();
+//     horas.textContent = hr;
+//     minutos.textContent = min;
+//     segundos.textContent = s;
+// })
 
-//Extrai os componentes da data atual
-var dia = dataAtual.getDate();
-var mes = dataAtual.getMonth() + 1;
-var ano = dataAtual.getFullYear();
+// //Cria um objeto Date com a data e hora atuais
+// var dataAtual = new Date();
 
-var dataFormatada = dia + '/' + mes + '/' + ano;
+// //Extrai os componentes da data atual
+// var dia = dataAtual.getDate();
+// var mes = dataAtual.getMonth() + 1;
+// var ano = dataAtual.getFullYear();
 
-document.getElementById("dataAtual").innerHTML = dataFormatada;
+// var dataFormatada = dia + '/' + mes + '/' + ano;
+
+// document.getElementById("dataAtual").innerHTML = dataFormatada;
+
