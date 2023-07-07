@@ -1,7 +1,7 @@
 // Cria um alerta quando a página é gerada
-// function alerta() {
-//     alert('Cancelamentos de reunião com a Ana DA RECEPÇÃO ou em seu e-mail, caso tenha alguma duvida FAVOR verificar o RODAPÉ da página')
-//  }
+function alerta() {
+    alert('Cancelamentos de reunião com a Ana DA RECEPÇÃO ou em seu e-mail, caso tenha alguma duvida FAVOR verificar o RODAPÉ da página')
+}
 
 const horas = document.getElementById('horas');
 const minutos = document.getElementById('minutos');
@@ -24,14 +24,24 @@ const relogio = setInterval(function time(){
  })
 
 //Cria um objeto Date com a data e hora atuais
-var dataAtual = new Date();
-
-//Extrai os componentes da data atual
-var dia = dataAtual.getDate();
-var mes = dataAtual.getMonth() + 1;
-var ano = dataAtual.getFullYear();
-
-var dataFormatada = dia + '/' + mes + '/' + ano;
-
-document.getElementById("dataAtual").innerHTML = dataFormatada;
-
+// function mostrarDataAtualizada() {
+//     var elementoData = document.getElementById("dataAtual");
+  
+//     function atualizarData() {
+//       var dataAtual = new Date();
+//       var dia = dataAtual.getDate();
+//       var mes = dataAtual.getMonth() + 1;
+//       var ano = dataAtual.getFullYear();
+  
+//       var dataFormatada = dia + '/' + mes + '/' + ano;
+  
+//       elementoData.innerHTML = dataFormatada;
+//     }
+  
+//     // Chama a função inicialmente para exibir a data atual
+//     atualizarData();
+  
+//     // Atualiza a data a cada segundo (1000 milissegundos)
+//     setInterval(atualizarData, 1000);
+//   }
+  
