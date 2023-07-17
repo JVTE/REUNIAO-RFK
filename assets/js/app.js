@@ -22,26 +22,24 @@ const relogio = setInterval(function time(){
     minutos.textContent = min;
     segundos.textContent = s;
  })
+// função da data
+function mostrarDataAtualizada() {
+    var elementoData = document.getElementById("dataAtual");
 
-//Cria um objeto Date com a data e hora atuais
-// function mostrarDataAtualizada() {
-//     var elementoData = document.getElementById("dataAtual");
-  
-//     function atualizarData() {
-//       var dataAtual = new Date();
-//       var dia = dataAtual.getDate();
-//       var mes = dataAtual.getMonth() + 1;
-//       var ano = dataAtual.getFullYear();
-  
-//       var dataFormatada = dia + '/' + mes + '/' + ano;
-  
-//       elementoData.innerHTML = dataFormatada;
-//     }
-  
-//     // Chama a função inicialmente para exibir a data atual
-//     atualizarData();
-  
-//     // Atualiza a data a cada segundo (1000 milissegundos)
-//     setInterval(atualizarData, 1000);
-//   }
-  
+    function atualizarData() {
+        var dataAtual =  new Date();
+        var dia = dataAtual.getDate();
+        var mes = dataAtual.getMonth() + 1;
+        var ano = dataAtual.getFullYear();
+
+        var dataFormatada = dia + '/' + mes + '/' + ano;
+
+        elementoData.innerHTML = dataFormatada;
+    }
+    //chama a função para exibir a data atual
+    atualizarData();
+
+    //Atualiza a data a cada segundo
+    setInterval(atualizarData, 1000);
+}
+mostrarDataAtualizada();
