@@ -91,7 +91,7 @@
   
   /* ESTILO DA TAG P DO FOOTER */
   .p1{
-    font-size: 30px;
+    font-size: 20px;
     padding: 0px 30px;
     color: #fff;
   }
@@ -104,7 +104,6 @@
   /* COR DOS LINKS QUE O USUÁRIO ACESSA PARA FAZER OS AGENDAMENTOS */
   .colorlink{
     color: #000000;
-    font-size: larger;
   }
 
   /* TIRA A DECORAÇÃO DOS LINKS */
