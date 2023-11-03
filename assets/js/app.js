@@ -1,13 +1,13 @@
 // Cria um alerta quando a página é gerada
 function alerta() {
-     alert('Cancelamentos de reunião com a ANA DA RECEPÇÃO ou em seu e-mail, caso tenha alguma duvida FAVOR verificar o RODAPÉ da página')
+    alert('Cancelamentos de reunião com a ANA DA RECEPÇÃO ou em seu e-mail, caso tenha alguma dúvida, FAVOR verificar o RODAPÉ da página');
 }
 
 const horas = document.getElementById('horas');
 const minutos = document.getElementById('minutos');
 const segundos = document.getElementById('segundos');
 
-function atualizarRelogio() {
+function atualizarRelógio() {
     const dateToday = new Date();
     let hr = dateToday.getHours();
     let min = dateToday.getMinutes();
@@ -22,43 +22,49 @@ function atualizarRelogio() {
     segundos.textContent = s;
 }
 
-function obterLocalizacaoEAtualizarRelogio() {
+function obterLocalizacaoEAtualizarRelógio() {
     if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition(function (position) {
             const latitude = position.coords.latitude;
             const longitude = position.coords.longitude;
-            
-            const timezoneOffset = new Date().getTimezoneOffset() / 60;
-            
-            // Usando a biblioteca Luxon para lidar com fusos horários
-            const luxonDateTime = luxon.DateTime.now().setZone('auto');
-            
-            const horaLocal = luxonDateTime.hour;
-            const minutoLocal = luxonDateTime.minute;
-            const segundoLocal = luxonDateTime.second;
-            
-            horas.textContent = horaLocal < 10 ? '0' + horaLocal : horaLocal;
-            minutos.textContent = minutoLocal < 10 ? '0' + minutoLocal : minutoLocal;
-            segundos.textContent = segundoLocal < 10 ? '0' + segundoLocal : segundoLocal;
+
+            // Coordenadas geográficas do estado do Paraná
+            const latitudeParana = -25.252088;
+            const longitudeParana = -52.021499;
+
+            // Margem de erro para a correspondência (ajuste conforme necessário)
+            const margemErro = 0.5; // Exemplo de margem de erro
+
+            // Verifique se as coordenadas do usuário correspondem ao Paraná
+            if (
+                Math.abs(latitude - latitudeParana) <= margemErro &&
+                Math.abs(longitude - longitudeParana) <= margemErro
+            ) {
+                // Exibe o alerta apenas para usuários no Paraná
+                alerta();
+            } else {
+                // Atualize o relógio com a hora local
+                atualizarRelógio();
+            }
         });
     } else {
         // Navegador não suporta geolocalização
-        atualizarRelogio();
+        atualizarRelógio();
     }
 }
 
 // Chame a função para obter a localização do usuário e atualizar o relógio
-obterLocalizacaoEAtualizarRelogio();
+obterLocalizacaoEAtualizarRelógio();
 
 // Atualize o relógio a cada segundo
-setInterval(atualizarRelogio, 1000);
+setInterval(atualizarRelógio, 1000);
 
-// função da data
+// Função da data
 function mostrarDataAtualizada() {
     var elementoData = document.getElementById("dataAtual");
 
     function atualizarData() {
-        var dataAtual =  new Date();
+        var dataAtual = new Date();
         var dia = dataAtual.getDate();
         var mes = dataAtual.getMonth() + 1;
         var ano = dataAtual.getFullYear();
@@ -67,10 +73,11 @@ function mostrarDataAtualizada() {
 
         elementoData.innerHTML = dataFormatada;
     }
-    //chama a função para exibir a data atual
+    // Chama a função para exibir a data atual
     atualizarData();
 
-    //Atualiza a data a cada segundo
+    // Atualiza a data a cada segundo
     setInterval(atualizarData, 1000);
 }
+
 mostrarDataAtualizada();
