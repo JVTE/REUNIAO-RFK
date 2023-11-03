@@ -14,6 +14,9 @@
     #hora_data{
       display: none;
     }
+    .relogio {
+      display: none;
+    }
   }
 
   * {
