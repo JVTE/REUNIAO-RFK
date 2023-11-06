@@ -53,7 +53,7 @@ function obterLocalizacaoEAtualizarRelógio() {
     }
 }
 
-// Chame a função para obter a localização do usuário e atualizar o relógio
+// Chama a função para obter a localização do usuário e atualizar o relógio
 obterLocalizacaoEAtualizarRelógio();
 
 // Atualize o relógio a cada segundo
