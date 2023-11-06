@@ -2,13 +2,6 @@
 
 Bem-vindo ao site de agendamento de reuniões RFK. Este site foi criado para facilitar o agendamento de salas de reunião da REFRIKO e oferece acesso rápido a informações relevantes.
 
-## Conteúdo
-
-- [Recursos](#recursos)
-- [Como Usar](#como-usar)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Autor](#autor)
-
 ## Recursos
 
 - Agendamento de salas de reunião.
@@ -17,12 +10,14 @@ Bem-vindo ao site de agendamento de reuniões RFK. Este site foi criado para fac
 
 ## Como Usar
 
-1. Acesse o site: [https://jvte.github.io/REUNIAO-RFK/](https://jvte.github.io/REUNIAO-RFK/).
-2. Escolha uma das salas de reunião disponíveis.
-3. Clique no link correspondente para agendar a sala de reunião.
-4. Para verificar se há algum agendamento, clique no ícone do calendário no cabeçalho.
-5. Para acessar a documentação, clique no ícone de informações no cabeçalho.
-6. Para abrir chamados, clique no ícone de estrela no cabeçalho.
+1. Escolha uma das salas de reunião disponíveis.
+2. Clique no link correspondente para agendar a sala de reunião.
+3. Para verificar se há algum agendamento, clique no ícone do calendário no cabeçalho.
+4. Para acessar a documentação, clique no ícone de informações no cabeçalho.
+5. Para abrir chamados, clique no ícone de estrela no cabeçalho.
+   
+   ![image](https://github.com/JVTE/REUNIAO-RFK/assets/56739230/36e36a46-f3d7-48ee-908a-1437e49795c6)
+
 
 ## Tecnologias Utilizadas
 
