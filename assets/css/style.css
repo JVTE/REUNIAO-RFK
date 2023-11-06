@@ -7,16 +7,16 @@
       width: 100%;
     }
     /* Tira a imagem da tela em dispositivos menores, tornando ainda mais responsivo a página */
-    #img{
+     #img{
       display: none;
-    }
+    } 
     /* Tira a hora da tela em dispositivos menores, tornando ainda mais responsivo a página */
-    #hora_data{
+     #hora_data{
       display: none;
     }
     .relogio {
       display: none;
-    }
+    } 
   }
 
   * {
