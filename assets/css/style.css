@@ -6,6 +6,9 @@
     header{
       width: 100%;
     }
+    header h1{
+      display: none;
+    }
     /* Tira a imagem da tela em dispositivos menores, tornando ainda mais responsivo a página */
      #img{
       display: none;
@@ -32,6 +35,10 @@
     color: #fff;
     padding: 10px;
     background-repeat: no-repeat;
+    width: 100%;
+     top: 0;
+     left: 0;
+     position: fixed; 
   }
   
   /* ESTILO DOS LINK DENTRO DO HEADER */
@@ -117,6 +124,9 @@
   /* Estilo do Relógio */
   .relogio{
     display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
     padding: 0px 25px; 
     height: 100px;
     width: 450px; 
@@ -138,4 +148,16 @@
   /* ESTILO DA DATA */
   .data_atual{
     font-weight: bolder;
+  }
+
+  body{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+  }
+  header, section, footer{
+    text-align: center;
   }
