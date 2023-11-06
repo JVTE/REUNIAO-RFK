@@ -1,7 +1,7 @@
 // FUNÇÃO PARA EXIBIR UM ALERTA NA PÁGINA QUANDO ELA É RECARREGADA
-// function alerta() {
-//     alert('Cancelamentos de reunião com a ANA DA RECEPÇÃO ou em seu e-mail, caso tenha alguma dúvida, FAVOR verificar o RODAPÉ da página');
-// }
+function alerta() {
+    alert('Cancelamentos de reunião com a ANA DA RECEPÇÃO ou em seu e-mail, caso tenha alguma dúvida, FAVOR verificar o RODAPÉ da página');
+}
 // OBTEM ELEMENTOS DE HORA, MINUTO E SEGUNDO DO RELÓGIO
 const horas = document.getElementById('horas');
 const minutos = document.getElementById('minutos');
