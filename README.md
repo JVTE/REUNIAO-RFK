@@ -16,9 +16,6 @@ Bem-vindo ao site de agendamento de reuniões RFK. Este site foi criado para fac
 4. Para acessar a documentação, clique no ícone de informações no cabeçalho.
 5. Para abrir chamados, clique no ícone de estrela no cabeçalho.
    
-   ![image](https://github.com/JVTE/REUNIAO-RFK/assets/56739230/36e36a46-f3d7-48ee-908a-1437e49795c6)
-
-
 ## Tecnologias Utilizadas
 
 Este site foi desenvolvido utilizando as seguintes tecnologias:
