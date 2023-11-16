@@ -1,28 +1,30 @@
-// FUNÇÃO PARA EXIBIR UM ALERTA NA PÁGINA QUANDO ELA É RECARREGADA
+// Função para exibir um alerta na página quando ela é recarregada
 function alerta() {
     alert('Cancelamentos de reunião com a ANA DA RECEPÇÃO ou em seu e-mail, caso tenha alguma dúvida, FAVOR verificar o RODAPÉ da página');
 }
-// OBTEM ELEMENTOS DE HORA, MINUTO E SEGUNDO DO RELÓGIO
+// Obtem elementos de hora, minuto e segundo do relógio
 const horas = document.getElementById('horas');
 const minutos = document.getElementById('minutos');
 const segundos = document.getElementById('segundos');
 
-// FUNÇÃO PARA ATUALIZAR O RELÓGIO
+// Função para atualizar o relógio
 function atualizarRelógio() {
     const dateToday = new Date();
     let hr = dateToday.getHours();
     let min = dateToday.getMinutes();
     let s = dateToday.getSeconds();
-    // FORMATA AS HORAS, MINUTOS E SEGUNDOS PARA ADICONAR UM ZERO À ESQUERDA SE NECESSÁRIO
+
+    // Formata as horas, minutos para adicionar um zero à esquerda se necessário
     if (hr < 10) hr = '0' + hr;
     if (min < 10) min = '0' + min;
     if (s < 10) s = '0' + s;
-    // ATUALIZA OS ELEMENTOS DE HORAS, MINUTOS E SEGUNDOS COM OS VALORES FORMATADOS
+
+    // Atualiza os elementos de horas, minutos e segundos com os valores formatados
     horas.textContent = hr;
     minutos.textContent = min;
     segundos.textContent = s;
 }
-// FUNÇÃO PARA OBTER A LOCALIZÇÃO DO USUÁRIO E ATULAIZAR O RELÓGIO OU MOSTRAR UM ALERTA
+// Função para obter a localização do usuáro e atualizar ou mostrar um alerta
 function obterLocalizacaoEAtualizarRelógio() {
     if ("geolocation" in navigator) {
         navigator.geolocation.getCurrentPosition(function (position) {
@@ -33,10 +35,10 @@ function obterLocalizacaoEAtualizarRelógio() {
             const latitudeParana = -25.252088;
             const longitudeParana = -52.021499;
 
-            // Margem de erro para a correspondência (ajuste conforme necessário
+            // Margem de erro para a correspondência
             const margemErro = 0.5; // Exemplo de margem de erro
 
-            // Verifique se as coordenadas do usuário correspondem ao Paran
+            // Verifica se as coordenadas do usuário correspondem ao Paran
             if (
                 Math.abs(latitude - latitudeParana) <= margemErro &&
                 Math.abs(longitude - longitudeParana) <= margemErro
@@ -44,7 +46,7 @@ function obterLocalizacaoEAtualizarRelógio() {
                 // Exibe o alerta apenas para usuários no Paraná
                 alerta();
             } else {
-                // Atualize o relógio com a hora local
+                // Atualiza o relógio com a hora local
                 atualizarRelógio();
             }
         });
@@ -80,5 +82,5 @@ function mostrarDataAtualizada() {
     // Atualiza a data a cada segundo
     setInterval(atualizarData, 1000);
 }
-// CHAMA A FUNÇÃO PARA MOSTRAR A DATA ATUALIZADA
+// Chama a função para mostrar a data atualizada
 mostrarDataAtualizada();
