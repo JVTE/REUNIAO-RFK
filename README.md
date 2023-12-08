@@ -28,7 +28,7 @@ Além disso, foram usados ícones do [Font Awesome](https://fontawesome.com/) e 
 
 ## Autor
 
-- [João Vitor](https://github.com/JVTE) - Desenvolvedor Web
+- [João Vitor](https://github.com/JVTE) 
 
 ---
 
