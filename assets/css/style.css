@@ -2,7 +2,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
   
   /* Deixa a página responsiva para dispositivos com largura máxima de 600px */
-  @media screen and (max-width:600px){
+  @media screen and (max-width:900px){
     header{
       width: 100%;
     }
