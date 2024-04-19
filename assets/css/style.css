@@ -1,51 +1,54 @@
-  /*  Importa a fonte Geologica do Google Fonts para uso no site */
-  @import url('https://fonts.googleapis.com/css2?family=Geologica&display=swap');
-  
-  /* Deixa a página responsiva para dispositivos com largura máxima de 600px */
-  @media screen and (max-width:900px){
-    header{
-      width: 100%;
-    }
-    header h1{
-      display: none;
-    }
-     #img{
-      display: none;
-    } 
-     #hora_data{
-      display: none;
-    }
-    .relogio {
-      display: none;
-    } 
-  }
+/*  Importa a fonte Geologica do Google Fonts para uso no site */
+@import url("https://fonts.googleapis.com/css2?family=Geologica&display=swap");
 
-  /* Estilo global para elemetos HTML */
-  * {
-    font-family: 'Geologica', sans-serif;
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-
-  /* Estilo do cabeçalho da página */
+/* Deixa a página responsiva para dispositivos com largura máxima de 600px */
+@media screen and (max-width: 900px) {
   header {
-    background-color: #333;
-    color: #fff;
-    padding: 10px;
-    background-repeat: no-repeat;
     width: 100%;
-     top: 0;
-     left: 0;
-     position: fixed; 
   }
-  
-  /* Estilo dos links dentro do cabeçalho */
-  #nav{
-    padding: 0px 20px;
+  header h1 {
+    display: none;
   }
-  
-  /* ESTILO DA NAV UL 
+  #img {
+    display: none;
+  }
+  #hora_data {
+    display: none;
+  }
+  .relogio {
+    display: none;
+  }
+  .a {
+    margin-top: 100px;
+  }
+}
+
+/* Estilo global para elemetos HTML */
+* {
+  font-family: "Geologica", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Estilo do cabeçalho da página */
+header {
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  background-repeat: no-repeat;
+  width: 100%;
+  top: 0;
+  left: 0;
+  position: fixed;
+}
+
+/* Estilo dos links dentro do cabeçalho */
+#nav {
+  padding: 0px 20px;
+}
+
+/* ESTILO DA NAV UL 
   nav ul {
     list-style-type: none;
     margin: 0;
@@ -53,111 +56,111 @@
   }
   */
 
-  /* ESTILO DA NAV UL LI */
-  nav ul li {
-    display: inline;
+/* ESTILO DA NAV UL LI */
+nav ul li {
+  display: inline;
   /* padding: 0px 10% */
-  }
-  
-  /* Estilo dos links (a) da navegação */
-  nav ul li a {
-    color: #fff;
-    text-decoration: none;
-    padding: 0px 20px;
-  }
+}
 
-  /* Estilo da seção principal da página */
-  section {
-    padding: 20px;
-  }
-  
-  /* Estilo do rodapé da página */
-  footer{
-    bottom: 0;
-    left: 0;
-    position: fixed;
-    width: 100%;
-    border-top: 2px solid #333;
-    background-color: #333;
-  }
+/* Estilo dos links (a) da navegação */
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0px 20px;
+}
 
-  /* Estilo para os titulos h1 e h2*/
-  h1{
-    padding: 20px 20px;
-  }
+/* Estilo da seção principal da página */
+section {
+  padding: 20px;
+}
 
-  h2{
-    padding: 10px 10px;
-    font-size: 30px;
-  }
+/* Estilo do rodapé da página */
+footer {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  border-top: 2px solid #333;
+  background-color: #333;
+}
 
-  /* Estilo para os links dentro de tags <p> dentro da seção */
-  p.a{
-    padding: 20px 10px ;
-    text-decoration: none;
+/* Estilo para os titulos h1 e h2*/
+h1 {
+  padding: 20px 20px;
+}
 
-  }
-  
-  /* Estilo para tags <p> dentro do rodapé */
-  .p1{
-    font-size: 20px;
-    padding: 0px 30px;
-    color: #fff;
-  }
-   
-  /* Cor do span dentro do rodapé */
-  #foot{
-    color: #fff;
-  }
+h2 {
+  padding: 10px 10px;
+  font-size: 30px;
+}
 
-  /* Cor dos links que o usuário acessa para fazer os agendamentos */
-  .colorlink{
-    color: #000000;
-  }
+/* Estilo para os links dentro de tags <p> dentro da seção */
+p.a {
+  padding: 20px 10px;
+  text-decoration: none;
+}
 
-  /* Remove a decoração (sublinhado dos links */
-  a{
-    text-decoration: none;
-  }
+/* Estilo para tags <p> dentro do rodapé */
+.p1 {
+  font-size: 20px;
+  padding: 0px 30px;
+  color: #fff;
+}
 
-  /* Estilo do Relógio na página */
-  .relogio{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: center;
-    padding: 0px 25px; 
-    height: 100px;
-    width: 450px; 
-  }
+/* Cor do span dentro do rodapé */
+#foot {
+  color: #fff;
+}
 
-  .relogio div{
-    height: 70px;
-    width: 40px;
-    display: flex;
-    letter-spacing: 1px;
-    
-  }
-  
-  .relogio span{
-    font-weight: bolder;
-    font-size: 20px;
-  }
-  
-  /* ESTILO DA DATA */
-  .data_atual{
-    font-weight: bolder;
-  }
+/* Cor dos links que o usuário acessa para fazer os agendamentos */
+.colorlink {
+  color: #000000;
+}
 
-  /* Configuração do corpo da página */
-  body{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-  }
-  header, section, footer{
-    text-align: center;
-  }
+/* Remove a decoração (sublinhado dos links */
+a {
+  text-decoration: none;
+}
+
+/* Estilo do Relógio na página */
+.relogio {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 25px;
+  height: 100px;
+  width: 450px;
+}
+
+.relogio div {
+  height: 70px;
+  width: 40px;
+  display: flex;
+  letter-spacing: 1px;
+}
+
+.relogio span {
+  font-weight: bolder;
+  font-size: 20px;
+}
+
+/* ESTILO DA DATA */
+.data_atual {
+  font-weight: bolder;
+}
+
+/* Configuração do corpo da página */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+}
+header,
+section,
+footer {
+  text-align: center;
+}
