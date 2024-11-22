@@ -1,7 +1,7 @@
 // Função para exibir um alerta na página quando ela é recarregada
-function alerta() {
-    alert('Cancelamentos de reunião com a Recepcionista  ou em seu e-mail, caso tenha alguma dúvida, FAVOR verificar o RODAPÉ da página');
-}
+// function alerta() {
+//     alert('Cancelamentos de reunião com a Recepcionista  ou em seu e-mail, caso tenha alguma dúvida, FAVOR verificar o RODAPÉ da página');
+// }
 // Obtem elementos de hora, minuto e segundo do relógio
 const horas = document.getElementById('horas');
 const minutos = document.getElementById('minutos');
